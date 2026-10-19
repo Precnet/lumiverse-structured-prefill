@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "name": "Structured Prefill",
+  "identifier": "structured_prefill",
+  "author": "OpenAI",
+  "github": "https://github.com/Precnet/lumiverse-structured-prefill",
+  "homepage": "https://github.com/Precnet/lumiverse-structured-prefill",
+  "description": "Forces an assistant prefill through OpenAI-compatible JSON Schema structured output.",
+  "permissions": [
+    "interceptor",
+    "generation_parameters"
+  ],
+  "entry_backend": "dist/backend.js",
+  "minimum_lumiverse_version": "0.1.0",
+  "interceptorTimeoutMs": 10000
+}
